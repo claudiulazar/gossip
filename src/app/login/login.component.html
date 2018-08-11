@@ -1,20 +1,23 @@
 <div class="login-page text-center">
   <div class="container">
     <div class="wow-much ">
-      <div class="border-awesome row">
+      <div class="border-awesome row" *ngIf="!login">
         <div class="description col-sm-6 offset-sm-1 text-left animated fadeIn">
           <h1 class="title animated tada delay-1s">Let's have sum fun together!</h1>
           <span class="subtitle">Nobody will know who said what, we like to be discreet...</span>
         </div>
         <div class="login-content col-xs-12 col-sm-4 offset-xs-0  text-center animated fadeIn">
-          <h2 class="text-signing">Continue with...</h2>
-          <a href="#">
-            <div class="social-sign google">Google</div>
-          </a>
-          <a href="#">
-            <div class="social-sign facebook">Facebook</div>
-          </a>
+          <button class="gossip" (click)="login = true">Gossip Now</button>
         </div>
+      </div>
+      <div class="login animated fadeIn col-xs-12 col-sm-4 offset-xs-0 offset-sm-4" *ngIf="login">
+        <h2 class="text-signing">Continue with...</h2>
+        <a href="#">
+          <div class="social-sign google">Google</div>
+        </a>
+        <a href="#">
+          <div class="social-sign facebook">Facebook</div>
+        </a>
       </div>
     </div>
   </div>

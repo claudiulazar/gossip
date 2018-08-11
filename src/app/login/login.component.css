@@ -63,5 +63,35 @@ a {
 }
 
 .text-signing {
-  color: #fefefe;
+  color: #FFFF33;
+}
+
+
+
+@media (max-width: 575px) {
+  .description {
+    text-align: center !important;
+  }
+  .subtitle {
+    font-weight: 100;
+  }
+  .text-signing {
+    margin-top: 42px;
+  }
+  .wow-much {
+    padding-top: 13vh;
+  }
+}
+
+.gossip {
+  background: #FFFF33;
+  color: #343433;
+  line-height: 60px;
+  font-size: 44px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  border: #FFFF33;
+  margin-top: 63px;
+  width: 300px;
 }

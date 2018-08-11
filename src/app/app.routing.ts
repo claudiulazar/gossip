@@ -13,7 +13,7 @@ export const routes: Routes = [
     children: [
       {
         path: '',
-        component: HomeComponent
+        component: PostsComponent
       },
       {
         path: 'new-post',

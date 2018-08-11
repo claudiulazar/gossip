@@ -1,0 +1,18 @@
+.posts {
+  margin-top: 56px;
+  min-height: calc(100vh - 112px);
+  background: #4c5458;
+}
+
+.container {
+  min-height: calc(100vh - 112px);
+  border-left: 3px solid #FFFF33 !important;
+}
+
+.post {
+  margin: 20px;
+  padding: 10px;
+  border: 3px solid #FFFF33;
+  border-radius: 20px;
+  color: #dddddd;
+}
