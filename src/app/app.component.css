@@ -1,0 +1,5 @@
+.ngb-carousel {
+  width: 100vw;
+  height: 100vh !important;
+  overflow: no-display;
+}

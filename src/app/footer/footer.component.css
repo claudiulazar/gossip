@@ -1,0 +1,12 @@
+.footer {
+  height: 56px;
+  background: #363c3f;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.text {
+  padding-top: 15px;
+  color: #f3f3f3;
+}
